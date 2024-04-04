@@ -1,0 +1,38 @@
+/* List.css */
+.list-container {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.list-item:hover {
+  background-color: #e0e0e0;
+}
+
+.list-item-text {
+  flex: 1;
+}
+
+.list-item-date {
+  margin-right: 10px; /* Add space between date/time and icons */
+}
+
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+}
